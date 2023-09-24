@@ -1,6 +1,4 @@
 import { arrowUp } from "../assets"
-import {features} from "../constants"
-import Button from './Button'
 const GetStarted = () => (
   <div className="ml-4 flex-center w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer">
 

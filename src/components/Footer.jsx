@@ -41,16 +41,20 @@ function Footer() {
         </div>
       </div>
 
-
-      <div className="flex flex-col w-full justify-between items-center md:flex-row border-t-[1px] border-t-[#3f3e45] pt-6">
+      <div className="text-white py-4 border-t-[1px] border-t-[#3f3e45] w-full flex justify-between">
+      <p>Designed By <a href="https://www.oneweekwonders.com" target="_blank" rel="noreferrer" className="font-bold underline">One Week Wonders</a>, <a href="https://dribbble.com/OWWStudio" className="underline">Dribbble</a></p>
+      <p>Developed By <a href="https://www.github.com/noamangg" className="underline font-bold">Noaman Grewatiy</a></p>
+      </div>
+      <div className="flex flex-col w-full justify-between items-center md:flex-row  pt-4">
         <p className="font-poppins font-normal text-center text-lg leading-7 text-white mb-3">2023 HooBank. All Rights Reserved.</p>
         <div className="flex flex-row md:mt-0 mt-6 gap-6">
           {socialMedia.map((social) => (
             <img key={social.id} src={social.icon} alt={social.icon} className="w-[21px] h-[21px] object-contain cursor-pointer"/>
           ))}
-        </div>
+        </div>  
       </div>
-    </footer>
+
+    </footer> 
   );
 }
 

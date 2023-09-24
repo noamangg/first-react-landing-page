@@ -14,7 +14,7 @@ function Navbar() {
             key={nav.id}
             className="font-poppins font-normal cursor-pointer text-base text-white"
           >
-            <a href={nav.id}>{nav.title}</a>
+            <a href={`#${nav.id}`} className="hover:text-secondary duration-300">{nav.title}</a>
           </li>
         ))}
       </ul>
@@ -37,7 +37,7 @@ function Navbar() {
                 key={nav.id}
                 className="font-poppins font-normal cursor-pointer text-base text-white"
               >
-                <a href={nav.id}>{nav.title}</a>
+                <a href={`#${nav.id}`} className="hover:text-secondary duration-300">{nav.title}</a>
               </li>
             ))}
           </ul>
